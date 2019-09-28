@@ -17,14 +17,14 @@ export class CategoriesService {
       }, 
 
       {
-      category: 'Agro',
+      category: 'Textiles',
       product: 'Coffe',
       description: 'An association of coffe producers in Risaralda',
       img: 'the url'
       },
 
       {
-      category: 'Agro',
+      category: 'Metalurgica',
       product: 'Coffe',
       description: 'An association of coffe producers in Risaralda',
       img: 'the url'
