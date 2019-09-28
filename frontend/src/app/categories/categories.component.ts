@@ -10,6 +10,9 @@ import { CategoriesService } from '../sevices/categories.service'
 export class CategoriesComponent implements OnInit {
 
   categories = this.categoriesService.get()
+  img = {
+    'background': 'url(http://elagonista.com/uploads/noticias/5/2019/08/20190828141003_industria-metalurgica-730x405.jpg)'
+  }
 
   constructor(
   private categoriesService:CategoriesService

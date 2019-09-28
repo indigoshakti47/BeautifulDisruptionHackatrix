@@ -1,7 +1,18 @@
 .banner{
   height: 400px;
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzD-GGqKjqLZ0LyCavZCh0AaBPm7fq7xun7V2Dw3N7omD1-V7TXw');
+  // background: url('');
+  background: #000;
   background-size: cover;
   background-position: center;
   margin-bottom: 100px;
+  img {
+    margin-top: 148px;
+  }
+}
+
+.bd-placeholder-img{
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
 }
