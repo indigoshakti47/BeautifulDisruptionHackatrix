@@ -20,7 +20,7 @@ export class CategoriesService {
       {
         category: 'Textiles',
         product: 'Coffe',
-        description: 'An association of coffe producers in Risaralda',
+        description: 'An association of jean makers in Medellín',
         img: {
           'background': 'url(http://olsimex.com.mx/images/servicio-transporte/importacion-de-textiles.jpg)'
         },
@@ -28,7 +28,7 @@ export class CategoriesService {
       {
         category: 'Metalurgica',
         product: 'Coffe',
-        description: 'An association of coffe producers in Risaralda',
+        description: 'An association of copper extractors in Quibdo',
         img: {
           'background': 'url(http://elagonista.com/uploads/noticias/5/2019/08/20190828141003_industria-metalurgica-730x405.jpg)'
         },
