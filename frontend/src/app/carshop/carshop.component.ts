@@ -8,6 +8,8 @@ import { ProductsService } from '../sevices/products.service'
 })
 export class CarshopComponent implements OnInit {
 
+  products = this.productService.get()
+
   constructor(
     private productService:ProductsService
   ) { }
