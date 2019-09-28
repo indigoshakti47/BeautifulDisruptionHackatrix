@@ -12,20 +12,20 @@ export class ProductsService {
       name: 'cafe 1',
       sale: [{
         cant: 10,
-        prices:
-      }]
+        prices: 100
+      }],
     },{
       name: 'cafe 2',
       sale: [{
         cant: 10,
-        prices:
-      }]
+        prices: 200
+      }],
     },{
       name: 'cafe 3',
       sale: [{
         cant: 10,
-        prices:
-      }]
+        prices: 300
+      }],
     },]
   }
 }
