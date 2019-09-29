@@ -7,17 +7,17 @@
     <div class="col-xs-12 col-md-12 col-lg-12 card" *ngFor="let product of products">
       <div class="row">
         <div class="col-xs-12 col-md-3 col-lg-3">
-          <div class="product-img"></div>
+          <div class="product-img" [ngStyle]=product.img></div>
         </div>
         <div class="col-xs-12 col-md-9 col-lg-9">
           <h1>
-            producto
+            {{ product.name }}
           </h1>
           <p>
             numero de compradores: 9
           </p>
           <p>
-            compra: 80/100
+            compra: 80/{{ product.sale[0].cant }}
           </p>
           <div class="form-group row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Mi compra</label>
@@ -33,8 +33,8 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 center">
-      <input type="submit" name="" value="Comprar">
+    <div class="col-xs-12 col-md-12 col-lg-12 center">
+        <input type="submit" name="" class="btn btn-primary col-xs-12" value="Comprar">
     </div>
   </div>
 </div>

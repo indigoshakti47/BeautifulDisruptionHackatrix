@@ -9,8 +9,11 @@ export class ProductsService {
 
   get(){
     return [{
-      img: 'https://placeralplato.com/files/2019/04/granos-de-cafe1.jpg',
+      img: {
+        'background': 'url(https://placeralplato.com/files/2019/04/granos-de-cafe1.jpg)'
+      },
       name: 'café',
+      shoppers: 4,
       unit:[{
         cant: '1klg',
         price: '$6000'
@@ -20,8 +23,11 @@ export class ProductsService {
         prices: '$3000000'
       }],
     },{
-      img: 'https://placeralplato.com/files/2019/04/granos-de-cafe1.jpg',
+      img: {
+        background: 'url(https://placeralplato.com/files/2019/04/granos-de-cafe1.jpg)'
+      },
       name: 'azúcar',
+      shoppers: 3,
       unit:[{
         cant: '1 klg',
         price: '???'
@@ -31,11 +37,14 @@ export class ProductsService {
         prices: '$30000'
       }],
     },{
-      img: 'https://placeralplato.com/files/2019/04/granos-de-cafe1.jpg',
+      img: {
+        background: 'url(https://placeralplato.com/files/2019/04/granos-de-cafe1.jpg)'
+      },
       name: 'vasos',
+      shoppers: 5,
       unit:[{
         cant: '1 paquete',
-        price: '???'    
+        price: '???'
       }],
       sale: [{
         cant: '10000',
